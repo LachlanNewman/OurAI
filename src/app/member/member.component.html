@@ -1,6 +1,7 @@
-<div class="container">
+<div id="container">
   <div id="member-container">
-    <input class="form-control" placeholder="Enter Member Number">
-    <button class="btn primary">Login</button>
+    <h1>Our AI Community</h1>
+    <input [(ngModel)]="memberNumber" class="form-control" placeholder="Enter Member Number">
+    <a class="btn primary" routerLink="/{{memberNumber}}">Login</a>
   </div>
 </div>
