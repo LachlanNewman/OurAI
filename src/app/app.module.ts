@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MemberComponent } from './member/member.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MemberComponent,
+    CertificateComponent
   ],
   imports: [
     BrowserModule
